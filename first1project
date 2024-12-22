@@ -1,0 +1,88 @@
+
+txt = "The best things in life are free!"
+print(check_word_absence("expensive", txt))
+
+
+a = "Hello, World!"
+print(a.lower())
+b="domain expantion"
+print(b.upper())
+
+b = "rizzy, World!"
+print(b[2:5])
+
+b = "Goku's,world!"
+print(b[:6])
+
+b = "bebefinn!"
+print(b[2:])
+
+b = "python, github!"
+print(b[-5:-2])
+
+a = """Ooh
+I, I just woke up from a dream
+Where you and I had to say goodbye
+And I don't know what it all means
+But since I survived, I realized
+Wherever you go, that's where I'll follow
+Nobody's promised tomorrow
+So I'ma love you every night like it's the last night
+Like it's the last night
+If the world was ending, I'd wanna be next to you
+If the party was over and our time on Earth was through
+I'd wanna hold you just for a while and die with a smile
+If the world was ending, I'd wanna be next to you
+Ooh
+Oh, lost, lost in the words that we scream
+I don't even wanna do this anymore
+'Cause you already know what you mean to me
+And our love's the only war worth fighting for
+Wherever you go, that's where I'll follow
+Nobody's promised tomorrow
+So I'ma love you every night like it's the last night
+Like it's the last night
+If the world was ending, I'd wanna be next to you
+If the party was over and our time on Earth was through
+I'd wanna hold you just for a while and die with a smile
+If the world was ending, I'd wanna be next to you
+Right next to you
+Next to you
+Right next to you
+Oh-oh, oh
+If the world was ending, I'd wanna be next to you
+If the party was over and our time on Earth was through
+I'd wanna hold you just for a while and die with a smile
+If the world was ending, I'd wanna be next to you
+If the world was ending, I'd wanna be next to you
+Ooh
+I'd wanna be next to you."""
+print(a)
+
+a = "internet!"
+print(a[1])
+
+for x in "i under stand it know":
+  print(x) 
+
+  a = "hello my skibidi sigma's"
+print(len(a))
+
+txt = "The best things in life are free to get but so goes for buying things!"
+print("free" in txt)
+
+a = "Hello"
+b = " attack on titans"
+c = a + b
+print(c)
+
+age = 12
+txt = f"My name is joel, I am {age}"
+print(txt)
+
+price = 20000
+txt = f"The price of a megaladon is {price:.2f} dollars"
+print(txt)
+
+txt = f"The price is {20 * 53} dollars"
+print(txt)
